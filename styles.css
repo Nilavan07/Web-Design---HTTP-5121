@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #f9f9f9; 
+  color: #ac2d2d;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 2.5em;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+code {
+  background-color: #eef;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c0392b;
+}
+
+
+a {
+  color: #01070b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a3754;
+  text-decoration: underline;
+}
+
+
+ul {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+#main, #footer {
+  background-color: #a39797;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#footer h2 {
+  font-size: 1.8em;
+  color: #02131f;
+}
+
+#author, #comments {
+  margin-bottom: 20px;
+}
+  #author {
+    background-color: #f1c40f;
+  padding: 10px;
+  border-radius: 5px;
+ }
+
+
+#comments {
+  background-color: #f1c40f;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #e74c3c;
+  color: rgb(27, 24, 24);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
